@@ -65,7 +65,7 @@
 				</executions>
 				<configuration>
 					<imageName>${project.artifactId}</imageName>
-					<mainClass>${exec.mainClass}</mainClass>
+					<mainClass>com.neonci.GraalvmNativeAppApplication</mainClass>
 					<buildArgs>
 						<buildArg>--no-fallback</buildArg>
 					</buildArgs>
