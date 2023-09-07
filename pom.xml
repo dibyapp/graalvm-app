@@ -47,11 +47,6 @@
 				<groupId>org.graalvm.buildtools</groupId>
 				<artifactId>native-maven-plugin</artifactId>
 				<version>0.9.26</version>
-				<configuration>
-					<mainClass>com.neonci.GraalvmNativeAppApplication</mainClass>
-					<fallback>false</fallback>
-					<verbose>true</verbose>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
