@@ -47,8 +47,10 @@
 				<groupId>org.graalvm.buildtools</groupId>
 				<artifactId>native-maven-plugin</artifactId>
 				<configuration>
-					<imageName>${project.artifactId}</imageName>
+					<imageName>graalvm-native-app</imageName>
 					<mainClass>com.neonci.GraalvmNativeAppApplication</mainClass>
+					<fallback>false</fallback>
+					<verbose>true</verbose>
 				</configuration>
 			</plugin>
 		</plugins>
