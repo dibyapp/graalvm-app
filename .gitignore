@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Local secrets and generated output
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/target/
+**/bin/
+*.log
+.DS_Store

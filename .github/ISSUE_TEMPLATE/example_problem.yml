@@ -1,0 +1,24 @@
+name: Example or documentation problem
+description: Report a reproducible issue using synthetic data.
+body:
+  - type: input
+    id: example
+    attributes:
+      label: Example folder or document
+      placeholder: Exact repository-relative path
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Toolchain and reproduction
+      description: Java, Maven, servlet container, OS, and commands. Remove private paths and secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: Include only sanitized errors and synthetic records.
+    validations:
+      required: true
